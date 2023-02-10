@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {   "type": "node",
+            "request": "launch",
+            "name": "Launch Week 2",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\week02\\js\\javascript11.js", 
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Week 3",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\C:\\Users\\Mike\\Documents\\spring2023\\week01\\hello.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Week 4",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\C:\\Users\\Mike\\Documents\\spring2023\\week03\\hopework.js", 
+            "console": "integratedTerminal"
+        }
+    ]
+}
