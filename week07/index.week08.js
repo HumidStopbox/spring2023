@@ -20,10 +20,16 @@ app.get('/showme', async (req, res) => {
 })
 
 
-app.get('/inc-dec', async (req, res) => {
+app.get('/inc', async (req, res) => {
     await db.set("thenumber", req.params.number)
     res.send(`/week07/thursday.js`)
 })
+
+app.get('/dec', async (req, res) => {
+    await db.set("thenumber", req.params.number)
+    res.send(`/week07/thursday.js`)
+})
+
 
 app.get(`/echo/:value`, async(req, res) => {
     res.send(req.params)
